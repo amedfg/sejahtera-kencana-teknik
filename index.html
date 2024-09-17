@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PT. Sejahtera Kencana Teknik</title>
+    <link rel="shortcut icon" href="public/img/logo.ico" />
+    <link rel="apple-touch-icon" sizes="76x76" href="public/img/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="public/css/style.css">
+  </head>
+  <body class="font-serif">
+    <!-- Header Start -->
+    <header class="absolute top-0 left-0 z-50 w-full">
+      <div class="relative flex items-center justify-between">
+        <div class="px-4">
+          <a class="block py-6  font-bold text-primary uppercase text-white" href="#" >
+            <img src="public/img/logo.png" alt="" width="32" class="float-left"><span class="ml-2 text-lg lg:text-sm sm:text-xs">Sejahtera Kencana Teknik</span>
+          </a>
+        </div>
+        <div class="flex items-center px-4 ">
+          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+            </button>
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:rounded-none lg:bg-transparent lg:shadow-none lg:max-w-full ">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#about" class="mx-8 flex py-2 text-base text-white group-hover:text-sky-600 text-dark-on-small">Tentang Kami</a>
+                </li>
+                <li class="group">
+                  <a href="#jasa" class="mx-8 flex py-2 text-base text-white group-hover:text-sky-600 text-dark-on-small">Jasa Pelayanan</a>
+                </li>
+                <li class="group">
+                  <a href="#pengalaman" class="mx-8 flex py-2 text-base text-white group-hover:text-sky-600 text-dark-on-small">Clients</a>
+                </li>
+                <li class="group">
+                  <a href="#keunggulan" class="mx-8 flex py-2 text-base text-white group-hover:text-sky-600 text-dark-on-small">Keunggulan Kompetitif</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="mx-8 flex py-2 text-base text-white group-hover:text-sky-600 text-dark-on-small">Contact</a>
+                </li>
+              </ul>
+            </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <main>
+      <!-- Gambar Header -->
+      <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
+        <div class="absolute top-0 w-full h-full bg-center bg-cover" style='background-image: url("/public/img/1.jpg");' >
+          <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+        </div>
+        <div class="container relative mx-auto">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full lg:w-6/12 px-4 mx-auto text-center">
+                <h1 class="text-white font-semibold text-5xl">
+                  PT. Sejahtera Kencana Teknik
+                </h1>
+                <p class="mt-4 text-lg text-gray-300">
+                  Welding Service, Inspection and Testing
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section About -->
+      <section id="about" class="pb-16 bg-gray-300 -mt-20">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap"> 
+            <div class="md:w-6/12">
+              <!-- Tentang Kami -->
+              <div class="w-full px-4 text-center h8">
+                <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg" >
+                  <div class="px-4 py-5 flex-auto">
+                    <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400" >
+                      <i class="fas fa-building"></i>
+                    </div>
+                    <h6 class="text-xl font-semibold">Tentang Perusahaan</h6>
+                    <p class="mt-2 mb-4 text-gray-600"> Kami perusahaan yang bergerak dibidang jasa pelayanan pengelasan (welding) yang mengacu pada standar dan ketentuan yang berlaku.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Visi -->
+              <div class="w-full px-4 text-center">
+                <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg" >
+                  <div class="px-4 py-5 flex-auto">
+                    <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400" >
+                      <i class="fas fa-eye"></i>
+                    </div>
+                    <h6 class="text-xl font-semibold">Visi</h6>
+                    <p class="mt-2 mb-4 text-gray-600">Menjadi perusahaan terdepan dalam layanan pengelasan dan inspeksi, dikenal karena inovasi, keunggulan teknis, dan komitmen terhadap kualitas dan keselamatan di setiap proyek.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Misi -->
+            <div class="md:pt-6 w-full md:w-6/12 px-4 text-center">
+              <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg" >
+                <div class="px-4 py-5 flex-auto">
+                  <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-yellow-400" >
+                    <i class="fas fa-bullseye"></i>
+                  </div>
+                  <h6 class="text-xl font-semibold">Misi</h6>
+                  <p class="mt-2 mb-4 text-gray-600 text-md">
+                    <span class="font-bold">Memberikan Layanan Berkualitas Tinggi</span> : Menyediakan solusi pengelasan yang memenuhi standar tertinggi, dengan fokus pada ketepatan, efisiensi, dan kepuasan klien.
+                  </p>
+                  <p class="mt-2 mb-4 text-gray-600 text-md">
+                    <span class="font-bold">Membangun Kemitraan yang Kuat</span> : Menjalin hubungan jangka panjang dengan klien berdasarkan kepercayaan, transparansi, dan pemahaman mendalam terhadap kebutuhan spesifik mereka.
+                  </p>
+                  <p class="mt-2 mb-4 text-gray-600 text-md">
+                    <span class="font-bold">Inovasi Berkelanjutan </span> : Terus mengembangkan dan mengimplementasikan teknologi terbaru dalam pengelasan dan inspeksi untuk memberikan solusi yang lebih efisien dan efektif.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- Section Jasa -->
+      <section id="jasa" class="bg-white mt-5">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap justify-center">
+            <div class="hidden md:block w-1/6 h-auto bg-center bg-cover mr-5 rounded-xl" style='background-image: url("public/img/2.jpg")'>
+              <span id="blackOverlay" class="w-1/6 h-auto absolute opacity-75 bg-black"></span>
+            </div>
+            <div class="md:w-4/6 flex flex-wrap justify-start">
+              <div class="w-full mx-auto border border-black rounded-xl p-5 shadow-md">
+                <h5 class="font-bold text-slate-700 text-2xl mb-3">Jasa Pelayanan</h5>
+                <p class="text-slate-600">Pengelasan (welding) pada proyek industrial, oil and gas, dan fabrikasi memiliki berbagai regulasi yang harus dipenuhi untuk menghasilkan produk yang dapat diakui oleh owner. Kami mampu mengaplikasikan berbagai standar dan code untuk pengelasan, antara lain <span class="font-bold">SNI, ASME, API, AWS, DNV, JIS, BS dll.</span></p>
+              </div>
+              <div class="w-full mt-5 border border-black rounded-xl p-5 shadow-md">
+                <img src="public/img/logo-ngelas.png" alt="logo-ngelas" class="float-left mr-3 border rounded-xl border-black shadow-md h-20">
+                <h5 class="font-bold text-slate-700 text-lg mb-3" >Kualifikasi Prosedur Las</h5>
+                <p class="text-slate-600">Pembuatan Welding Procedure Specification (WPS) berdasarkan sandar, code, dan/atau project specification.</p>
+              </div>
+              <div class="w-full mt-5 border border-black rounded-xl p-5 shadow-md">
+                <img src="public/img/logo-tukang-las.png" alt="logo-tukang-las" class="float-left mr-3 border rounded-xl border-black shadow-md h-20">
+                <h5 class="font-bold text-slate-700 text-lg mb-3">Kualifikasi Juru Las</h5>
+                <p class="text-slate-600">Melaksanakan kualifikasi juru las (welder qualification) sampai dengan pembuatan dan pengurusan sertifikat.</p>
+              </div>
+              <div class="w-full mt-5 border border-black rounded-xl p-5 shadow-md">
+                <img src="public/img/logo-tempat-las.png" alt="logo-tempat-las" class="float-left mr-3 border rounded-xl border-black shadow-md h-20">
+                <h5 class="font-bold text-slate-700 text-lg mb-3">Inspection dan Testing</h5>
+                <p class="text-slate-600">Eksaminasi Uji Tak Rusak (Non-Destructive Test) dan Uji Rusak (Destructive Test).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section Pengalaman/Clients -->
+      <section id="pengalaman" class="bg-slate-700 mt-10 pb-20">
+        <div class="container mx-auto px-4">
+          <div class="w-full px-4">
+            <div class="mx-auto mb-8 text-center mt-10">
+              <h4 class="mb-2 text-lg font-semibold text-gray-200">Clients</h4>
+              <h2 class="mb-4 text-2xl font-bold text-gray-200 dark:text-dark sm:text-4xl lg:text-5xl">Pengalaman Bekerjasama</h2>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 gap-2">
+            <!-- PT. Putra Tunggal Mandiritama -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md">
+              <img src="public/img/logo-ptm.png" alt="logo-ptm" class="float-left mr-3 border rounded-xl border-white shadow-md h-20 w-20">
+              <h5 class="font-bold text-gray-200 text-lg mb-3" >PT. Putra Tunggal Mandiritama</h5>
+              <p class="text-gray-200">Pembuatan WPS dan Kualifikasi Juru Las <span class="font-bold">MIGAS</span> berdasarkan ASME Section IX.</p>
+            </div>
+            <!-- PT. Widjaja Teknik Utama -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md">
+              <img src="public/img/logo-wtu.png" alt="logo-wtu" class="float-left mr-3 border rounded-xl border-white shadow-md h-20 w-20">
+              <h5 class="font-bold text-gray-200 text-lg mb-3" >PT. Widjaja Teknik Utama</h5>
+              <p class="text-gray-200">Pembuatan WPS <span class="font-bold">KEMNAKER</span> berdasarkan ASME Section IX dan AWS D1.1.</p>
+            </div>
+            <!-- PT. Bilal Mitra Aryatama -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md">
+              <img src="public/img/logo-bima.png" alt="logo-bima" class="float-left mr-3 border rounded-xl border-white shadow-md h-20 w-20">
+              <h5 class="font-bold text-gray-200 text-lg mb-3" >PT. Bilal Mitra Aryatama</h5>
+              <p class="text-gray-200">Pembuatan WPS dan Kualifikasi Juru Las <span class="font-bold">MIGAS</span> berdasarkan ASME Section IX.</p>
+            </div>
+            <!-- PT. Indonesia Pondasi Raya -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md">
+              <img src="public/img/logo-indopora.png" alt="logo-indopora.png" class="float-left mr-3 border rounded-xl border-white shadow-md h-20 w-20">
+              <h5 class="font-bold text-gray-200 text-lg mb-3" >PT. Indonesia Pondasi Raya</h5>
+              <p class="text-gray-200">Pembuatan WPS dan Kualifikasi Juru Las <span class="font-bold">MIGAS</span> berdasarkan ASME AWS D1.1.</p>
+            </div>
+            <!-- PT. Pundi Satria Nusantara -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md">
+              <img src="public/img/logo-psn.png" alt="logo-psn.png" class="float-left mr-3 border rounded-xl border-white shadow-md h-20 w-20">
+              <h5 class="font-bold text-gray-200 text-lg mb-3" >PT. Pundi Satria Nusantara</h5>
+              <p class="text-gray-200">Pembuatan WPS <span class="font-bold">KEMNAKER</span> berdasarkan ASME ASME Section IX.
+            </div>
+            <!-- PT. Dinar Inti Duba -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md">
+              <img src="public/img/logo-did.png" alt="logo-did" class="float-left mr-3 border rounded-xl border-white shadow-md h-20 w-20">
+              <h5 class="font-bold text-gray-200 text-lg mb-3" >PT. Dinar Inti Duba</h5>
+              <p class="text-gray-200">Pembuatan WPS dan Kualifikasi Juru Las <span class="font-bold">MIGAS</span> berdasarkan ASME ASME Section IX
+            </div>
+            <!-- PT. ODG Indonesia -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md">
+              <img src="public/img/logo-odg.png" alt="logo-odg.png" class="float-left mr-3 border rounded-xl border-white shadow-md h-20 w-20">
+              <h5 class="font-bold text-gray-200 text-lg mb-3" >PT. ODG Indonesia</h5>
+              <p class="text-gray-200">Pembuatan WPS <span class="font-bold">KEMNAKER</span> berdasarkan ASME ASME Section IX dan AWS D1.1.
+            </div>
+            <!-- PT. Grand Twins Engineering -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md">
+              <img src="public/img/logo-gte.png" alt="logo-gte.png" class="float-left mr-3 border rounded-xl border-white shadow-md h-20 w-20">
+              <h5 class="font-bold text-gray-200 text-lg mb-3" >PT. Grand Twins Engineering</h5>
+              <p class="text-gray-200">Pembuatan WPS dan Kualifikasi Juru Las <span class="font-bold">MIGAS</span> berdasarkan ASME ASME Section IX.
+            </div>
+            <!-- PT. Pandeka Reno Indonesia -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md">
+              <img src="public/img/logo-pri.png" alt="logo-pri.png" class="float-left mr-3 border rounded-xl border-white shadow-md h-20 w-20">
+              <h5 class="font-bold text-gray-200 text-lg mb-3" >PT. Pandeka Reno Indonesia</h5>
+              <p class="text-gray-200">Pembuatan WPS <span class="font-bold">KEMNAKER</span> dan <span class="font-bold">MIGAS</span> berdasarkan ASME ASME Section IX.
+            </div>
+            <!-- Ryowa - Denki Jo -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md">
+              <img src="public/img/logo-rdjo.png" alt="logo-rdjo" class="float-left mr-3 border rounded-xl border-white shadow-md h-20 w-20">
+              <h5 class="font-bold text-gray-200 text-lg mb-3" >Ryowa - Denki Jo</h5>
+              <p class="text-gray-200">Pembuatan WPS <span class="font-bold">KEMNAKER</span> berdasarkan ASME ASME Section IX.
+            </div>
+        </div>
+      </section>
+      
+      <section id="keunggulan" class="pt-20 pb-32">
+        <div class="container mx-auto px-4">
+          <!-- Heading -->
+          <div class="w-full text-center mb-8">
+            <h2 class="mb-4 text-xl font-bold text-slate-700 sm:text-4xl lg:text-5xl">Keunggulan Kompetitif</h2>
+          </div>
+      
+          <!-- Swiper container -->
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <!-- Slide 1 -->
+              <div class="swiper-slide">
+                <div class="relative flex flex-col bg-white shadow-sm border border-slate-200 rounded-lg mx-4">
+                  <div class="relative h-56 m-2.5 overflow-hidden rounded-md">
+                    <img src="public/img/4.jpg" alt="card-image" class="object-cover w-full h-full" />
+                  </div>
+                  <div class="p-4 text-justify">
+                    <h6 class="mb-2 text-slate-800 text-xl font-semibold">Kepatuhan terhadap Standar Internasional</h6>
+                    <p class="text-slate-600 leading-normal font-light">PT Sejahtera Kencana Teknik selalu mematuhi standar pengelasan internasional seperti ASME, API, AWS, DNV, JIS, BS, dll dengan memastikan kualitas dan keamanan tinggi dalam setiap proyek. Hal ini menjadikan SKT pilihan utama bagi klien yang mencari jaminan kepatuhan regulasi dan standar industri..</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 2 -->
+              <div class="swiper-slide">
+                <div class="relative flex flex-col bg-white shadow-sm border border-slate-200 rounded-lg mx-4">
+                  <div class="relative h-56 m-2.5 overflow-hidden rounded-md">
+                    <img src="public/img/3.jpeg" alt="card-image" class="object-cover w-full h-full" />
+                  </div>
+                  <div class="p-4 text-justify">
+                    <h6 class="mb-2 text-slate-800 text-xl font-semibold">Tenaga Ahli Bersertifikat dan Berpengalaman</h6>
+                    <p class="text-slate-600 leading-normal font-light">Tim kami terdiri dari juru las dan inspektor bersertifikat dengan pengalaman luas diberbagai sektor industri, termasuk minyak dan gas, konstruksi, dan fabrikasi. Kompetensi ini memungkinkan kami untuk menghadirkan solusi yang tepat dan efisien sesuai kebutuhan spesifik proyek.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 3 -->
+              <div class="swiper-slide">
+                <div class="relative flex flex-col bg-white shadow-sm border border-slate-200 rounded-lg mx-4">
+                  <div class="relative h-56 m-2.5 overflow-hidden rounded-md">
+                    <img src="public/img/5.jpg" alt="card-image" class="object-cover w-full h-full" />
+                  </div>
+                  <div class="p-4 text-justify">
+                    <h6 class="mb-2 text-slate-800 text-xl font-semibold">Layanan Terpadu dari Konsultasi hingga Sertifikasi</h6>
+                    <p class="text-slate-600 leading-normal font-light">SKT menawarkan layanan yang komprehensif, mulai dari konsultasi teknis, pembuatan prosedur pengelasan, hingga kualifikasi juru las dan pengujian akhir. Pendekatan terpadu ini memudahkan klien dalam mengelola seluruh aspek terkait pengelasan tanpa harus beralih ke banyak penyedia layanan.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 4 -->
+              <div class="swiper-slide">
+                <div class="relative flex flex-col bg-white shadow-sm border border-slate-200 rounded-lg mx-4">
+                  <div class="relative h-56 m-2.5 overflow-hidden rounded-md">
+                    <img src="public/img/6.jpg" alt="card-image" class="object-cover w-full h-full" />
+                  </div>
+                  <div class="p-4 text-justify">
+                    <h6 class="mb-2 text-slate-800 text-xl font-semibold">Pelayanan Pelanggan yang Responsif dan Personal</h6>
+                    <p class="text-slate-600 leading-normal font-light">Kami percaya pada pentingnya hubungan jangka panjang dengan klien. Melalui pendekatan yang personal dan responsif, kami memastikan bahwa setiap kebutuhan klien dipahami dengan baik dan ditangani dengan solusi yang sesuai, meningkatkan kepuasan dan loyalitas klien.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 5 -->
+              <div class="swiper-slide">
+                <div class="relative flex flex-col bg-white shadow-sm border border-slate-200 rounded-lg mx-4">
+                  <div class="relative h-56 m-2.5 overflow-hidden rounded-md">
+                    <img src="public/img/7.jpg" alt="card-image" class="object-cover w-full h-full" />
+                  </div>
+                  <div class="p-4 text-justify">
+                    <h6 class="mb-2 text-slate-800 text-xl font-semibold">Fleksibilitas dan Adaptabilitas dalam Pelayanan</h6>
+                    <p class="text-slate-600 leading-normal font-light">SKT memiliki kemampuan untuk menyesuaikan layanan berdasarkan kebutuhan spesifik proyek dan tantangan lapangan. Fleksibilitas ini memungkinkan kami untuk menghadapi berbagai kondisi operasional dengan solusi yang cepat dan tepat.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Repeat for more slides -->
+            </div>
+      
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+      
+            <!-- Add Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer Start -->
+    <footer id="contact" class="bg-gray-300 pt-24">
+      <div class="flex justify-between ml-10">
+        <div class="mb-12 w-full px-4 font-medium text-gray-700 md:w-1/2">
+          <h2 class="mb-5 text-4xl font-bold text-gray-700">PT.   Sejahtera Kencana Teknik</h2>
+          <h3 class="mb-2 text-2xl font-bold">Hubungi Kami</h3>
+          <div class="flex items-center">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sejahterakencanateknik@gmail.com" target="_blank" >
+              <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Gmail</title>
+                <path fill="#374151" d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+              </svg>
+            </a>
+            <a href="https://wa.me/62818747593?text=Halo%20saya%20ingin%20bertanya%20tentang%20jasa%20Anda" target="_blank" class="ml-2">
+              <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path fill="#374151" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            </a>
+          </div>
+          <p>Perum. Bukit Golf Cluster Lavender</p>
+          <p>Gunung Putri, Kab. Bogor</p>
+        </div>
+        <div class="mb-12 w-full px-4 md:w-1/2 md:text-end md:mr-12">
+          <h3 class="mb-5 text-xl font-semibold text-gray-700">Tautan</h3>
+          <ul class="text-gray-700">
+            <li>
+              <a href="#" class="mb-3 inline-block text-gray-700">Beranda</a>
+            </li>
+            <li>
+              <a href="#about" class="mb-3 inline-block text-gray-700">Tentang Kami</a>
+            </li>
+            <li>
+              <a href="#jasa" class="mb-3 inline-block text-gray-700">Jasa Pelayanan</a>
+            </li>
+            <li>
+              <a href="#pengalaman" class="mb-3 inline-block text-gray-700">Clients</a>
+            </li>
+            <li>
+              <a href="#keunggulan" class="mb-3 inline-block text-gray-700">Keunggulan Kompetitif</a>
+            </li>
+            <li>
+              <a href="#contact" class="mb-3 inline-block text-gray-700">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <a href="#" class="fixed bottom-4 right-4 z-[9999] hidden h-14 w-14 items-center justify-center rounded-full bg-primary p-4 hover:animate-pulse" id="to-top"></a>
+      <span class="mt-2 block h-5 w-5 rotate-45 border-t-2 border-l-2"></span>
+    </a>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="public/js/script.js"></script>
+  <script>
+    
+  </script>
+  </body>
+</html>

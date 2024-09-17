@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 1024px) {
+  .text-dark-on-small {
+    color: #000; /* Your dark color */
+  }
+}
+
+.navbar-fixed {
+  @apply fixed z-[9999] bg-black bg-opacity-40;
+  backdrop-filter: blur[5px];
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-white;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative; /* Ensure relative positioning for the container */
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000; /* Change color to suit your design */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Center vertically */
+}
+
+.swiper-pagination {
+  bottom: 10px; /* Adjust the bottom position if needed */
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination {
+  z-index: 10; /* Ensure they are above the slides */
+}
