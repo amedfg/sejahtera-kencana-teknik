@@ -1,0 +1,115 @@
+<div class="grid grid-cols-2 sm:grid-cols-5 gap-2">
+            <!-- PT. Putra Tunggal Mandiritama -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-ptm.png" alt="logo-ptm" class="border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2">PT. Putra Tunggal Mandiritama</h5>
+            </div>
+            <!-- PT. Widjaja Teknik Utama -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-wtu.png" alt="logo-wtu" class="border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2">PT. Widjaja Teknik Utama</h5>
+            </div>
+            <!-- PT. Bilal Mitra Aryatama -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-bima.png" alt="logo-bima" class="border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2">PT. Bilal Mitra Aryatama</h5>
+            </div>
+            <!-- PT. Indonesia Pondasi Raya -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-indopora.png" alt="logo-indopora.png" class="border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2">PT. Indonesia Pondasi Raya</h5>
+            </div>
+            <!-- PT. Pundi Satria Nusantara -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-psn.png" alt="logo-psn.png" class="border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2">PT. Pundi Satria Nusantara</h5>
+            </div>
+            <!-- PT. Dinar Inti Duba -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-did.png" alt="logo-did" class="border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2">PT. Dinar Inti Duba</h5>
+            </div>
+            <!-- PT. ODG Indonesia -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-odg.png" alt="logo-odg.png" class="border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2">PT. ODG Indonesia</h5>
+            </div>
+            <!-- PT. Grand Twins Engineering -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-gte.png" alt="logo-gte.png" class="border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2">PT. Grand Twins Engineering</h5>
+            </div>
+            <!-- PT. Pandeka Reno Indonesia -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-pri.png" alt="logo-pri.png" class="border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2">PT. Pandeka Reno Indonesia</h5>
+            </div>
+            <!-- Ryowa - Denki Jo -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-rdjo.png" alt="logo-rdjo" class="border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2">Ryowa - Denki Jo</h5>
+            </div>
+        </div>
+
+
+
+        <div class="grid grid-cols-5 gap-2">
+            <!-- PT. Putra Tunggal Mandiritama -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-ptm.png" alt="logo-ptm" class="float-center border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2" >PT. Putra Tunggal Mandiritama</h5>
+            </div>
+            <!-- PT. Widjaja Teknik Utama -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-wtu.png" alt="logo-wtu" class="float-center border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2" >PT. Widjaja Teknik Utama</h5>
+              
+            </div>
+            <!-- PT. Bilal Mitra Aryatama -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-bima.png" alt="logo-bima" class="float-center border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2" >PT. Bilal Mitra Aryatama</h5>
+              
+            </div>
+            <!-- PT. Indonesia Pondasi Raya -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-indopora.png" alt="logo-indopora.png" class="float-center border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2" >PT. Indonesia Pondasi Raya</h5>
+             
+            </div>
+            <!-- PT. Pundi Satria Nusantara -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-psn.png" alt="logo-psn.png" class="float-center border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2" >PT. Pundi Satria Nusantara</h5>
+              
+            </div>
+            <!-- PT. Dinar Inti Duba -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-did.png" alt="logo-did" class="float-center border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2" >PT. Dinar Inti Duba</h5>
+              
+            </div>
+            <!-- PT. ODG Indonesia -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-odg.png" alt="logo-odg.png" class="float-center border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2" >PT. ODG Indonesia</h5>
+              
+            </div>
+            <!-- PT. Grand Twins Engineering -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-gte.png" alt="logo-gte.png" class="float-center border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2" >PT. Grand Twins Engineering</h5>
+              
+            </div>
+            <!-- PT. Pandeka Reno Indonesia -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-pri.png" alt="logo-pri.png" class="float-center border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2" >PT. Pandeka Reno Indonesia</h5>
+              
+            </div>
+            <!-- Ryowa - Denki Jo -->
+            <div class="w-full mt-2 border border-white rounded-xl p-5 shadow-md flex flex-col items-center justify-center">
+              <img src="public/img/logo-rdjo.png" alt="logo-rdjo" class="float-center border rounded-xl border-white shadow-md h-24 w-24">
+              <h5 class="font-bold text-gray-200 text-lg text-center mt-2" >Ryowa - Denki Jo</h5>
+            </div>
+          </div>

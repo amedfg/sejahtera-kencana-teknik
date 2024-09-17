@@ -48,11 +48,11 @@ var swiper = new Swiper('.swiper-container', {
 });
 
 const images = [
-    "public/img/1.jpeg",
-    "public/img/2.jpeg",
-    "public/img/8.jpeg",
-    "public/img/12.jpeg",
-    "public/img/13.jpeg",
+    "public/img/1.png",
+    "public/img/2.png",
+    "public/img/8.png",
+    "public/img/12.png",
+    "public/img/13.png",
     // Tambahkan path gambar lainnya di sini
 ];
 
