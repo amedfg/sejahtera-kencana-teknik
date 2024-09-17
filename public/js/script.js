@@ -19,6 +19,7 @@ hamburger.addEventListener('click', function(){
     navMenu.classList.toggle('hidden');
 });
 
+//carousel
 var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     spaceBetween: 10,
@@ -44,7 +45,25 @@ var swiper = new Swiper('.swiper-container', {
         spaceBetween: 50,
       },
     }
-  });
+});
+
+const images = [
+    "public/img/1.jpeg",
+    "public/img/2.jpeg",
+    "public/img/8.jpeg",
+    "public/img/12.jpeg",
+    "public/img/13.jpeg",
+    // Tambahkan path gambar lainnya di sini
+];
+
+let currentIndex = 0;
+
+function changeBackgroundImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    document.getElementById("background").style.backgroundImage = `url(${images[currentIndex]})`;
+}
+
+setInterval(changeBackgroundImage, 3000); // Ganti gambar setiap 5 detik
   
 
   
